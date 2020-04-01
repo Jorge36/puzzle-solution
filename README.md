@@ -9,7 +9,8 @@ The programs save states in node objects and graph object (object oriented parad
 <h3> State representation </h3>
   
  We define two classes to save configurations of each state.
- 
+
+```lisp
 ; CLASS NODE: I use this class to save all the information related to a node
 (defclass node()
   ((heuristic :accessor node-heuristic) ;h(node)
@@ -30,7 +31,7 @@ The programs save states in node objects and graph object (object oriented parad
    (dimension  :accessor graph-dimension)) ; dimension of the puzzle 1 => (1 1) 2 => (1 2) 3 => (1 3) 4 => (2 1) 5 => (2 2) 6 => (2 3)
                                            ; 7 => (3 1) 8 => (3 2) 9 => (3 3)
 )
- 
+```
 <h3> Algorithm A* </h3>
 The algorithm used is detailed in the functional specification.
   
