@@ -30,8 +30,8 @@ The program saves states in node objects and graph object (object oriented parad
   ((node-start :accessor graph-node-start) ; node_start
    (node-goal  :accessor graph-node-goal) ; node_goal
    (node_heu   :accessor graph-node-heu) ; table hash of tiles with value (x,y) of the last state or result
-   (dimension  :accessor graph-dimension)) ; dimension of the puzzle 1 => (1 1) 2 => (1 2) 3 => (1 3) 4 => (2 1) 5 => (2 2) 6 => (2 3)
-                                           ; 7 => (3 1) 8 => (3 2) 9 => (3 3)
+   ;1 => (1 1) 2 => (1 2) 3 => (1 3) 4 => (2 1) 5 => (2 2) 6 => (2 3) 7 => (3 1) 8 => (3 2) 9 => (3 3)
+   (dimension  :accessor graph-dimension)) ; dimension of the puzzle 
 )
 ```
 <h3> Algorithm A* </h3>
