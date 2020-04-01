@@ -43,7 +43,7 @@ The algorithm used is detailed in the functional specification.
 <h3> How to compile and run </h3>
 1. Use quicklips to install the library cl-heap: <br>
    (quicklisp:quickload 'cl-heap) <br>
-   (quicklisp:quickload 'cl-heap-tests)nd compiled puzzle.lisp. <br>
+   (quicklisp:quickload 'cl-heap-tests) <br>
 2. Load and Compile puzzle.lisp: <br>
 
 Then the results are shown:
