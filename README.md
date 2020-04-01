@@ -1,12 +1,12 @@
 # puzzle-solution
 
-<h3>Puzzle Solution<h3>
+<h3>Puzzle Solution</h3>
 
 8-puzzle in Common Lisp using A* algorithm, Conflict linear and manhattan heuristic. The application was developed in LispWorks IDE. 
 
 The programs save states in node objects and graph object (object oriented paradigm).
 
-<h3> State representation <h3>
+<h3> State representation </h3>
   
  We define two classes to save configurations of each state.
  
@@ -31,10 +31,10 @@ The programs save states in node objects and graph object (object oriented parad
                                            ; 7 => (3 1) 8 => (3 2) 9 => (3 3)
 )
  
-<h3> Algorithm A* <h3>
+<h3> Algorithm A* </h3>
 The algorithm used is detailed in the functional specification.
   
-<h3> Infeasible Puzzle <h3>
+<h3> Infeasible Puzzle </h3>
 8-puzzle problem has many configurations which can not be solved. The program doesn't identify this kind of states, but it informs to the users if the solution was not found (http://www.geeksforgeeks.org/check-instance-8-puzzle-solvable/)
 
 
