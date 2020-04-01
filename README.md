@@ -39,6 +39,93 @@ The algorithm used is detailed in the functional specification.
 8-puzzle problem has many configurations which can not be solved. The program doesn't identify this kind of states, but it informs to the users if the solution was not found (http://www.geeksforgeeks.org/check-instance-8-puzzle-solvable/)
 
 <h3> How to compile and run </h3>
-Load 
-Load and compiled puzzle.lisp.
+1. Use quicklips to install the library:
+   (quicklisp:quickload 'cl-heap)
+   (quicklisp:quickload 'cl-heap-tests)nd compiled puzzle.lisp.
+2. Load and Compile puzzle.lisp:
+
+Then the results are shown:
+```lisp
+"START PROGRAM =========================================================================" 
+"Start state" 
+129453678 
+"Goal State" 
+123456789 
+129
+453
+678
+
+
+192
+453
+678
+
+
+912
+453
+678
+
+
+412
+953
+678
+
+
+412
+653
+978
+
+
+412
+653
+798
+
+
+412
+693
+758
+
+
+412
+963
+758
+
+
+912
+463
+758
+
+
+192
+463
+758
+
+
+129
+463
+758
+
+
+123
+469
+758
+
+
+123
+496
+758
+
+
+123
+456
+798
+
+
+123
+456
+789
+```
+
+
+
 
