@@ -10,7 +10,7 @@ The program saves states in node objects and graph object (object oriented parad
 
 <h3> State representation </h3>
   
- We define two classes to save configurations of each state.
+ I defined two classes to save configurations of each state.
 
 ```lisp
 ; CLASS NODE: I use this class to save all the information related to a node
