@@ -130,5 +130,5 @@ Then the results are shown:
 Another option:
 Run the file using the command "clisp puzzle.lisp" from the terminal.
 
-In the main program, we can test other cases modifying the node start.
+In the main program, we can test other cases modifying the node start (number 9 is the blank space).
 
