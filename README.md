@@ -2,7 +2,7 @@
 
 <h3>Puzzle Solution</h3>
 
-8-puzzle in Common Lisp using A* algorithm, Conflict linear and manhattan heuristic. The application was developed in LispWorks IDE. 
+8-puzzle in Common Lisp using A* algorithm, Conflict linear and manhattan heuristic. The application was developed in LispWorks IDE. I also used a priority queue to develop the program(https://common-lisp.net/project/cl-heap/)
 
 The programs save states in node objects and graph object (object oriented paradigm).
 
@@ -38,5 +38,7 @@ The algorithm used is detailed in the functional specification.
 <h3> Infeasible Puzzle </h3>
 8-puzzle problem has many configurations which can not be solved. The program doesn't identify this kind of states, but it informs to the users if the solution was not found (http://www.geeksforgeeks.org/check-instance-8-puzzle-solvable/)
 
+<h3> How to compile and run </h3>
+Load 
+Load and compiled puzzle.lisp.
 
-  
