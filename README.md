@@ -41,7 +41,7 @@ The algorithm used is detailed in the functional specification.
 8-puzzle problem has many configurations which can not be solved. The program doesn't identify this kind of states, but it informs to the users if the solution was not found (http://www.geeksforgeeks.org/check-instance-8-puzzle-solvable/)
 
 <h3> How to compile and run </h3>
-1. Use quicklips to install the library: <br>
+1. Use quicklips to install the library cl-heap: <br>
    (quicklisp:quickload 'cl-heap) <br>
    (quicklisp:quickload 'cl-heap-tests)nd compiled puzzle.lisp. <br>
 2. Load and Compile puzzle.lisp: <br>
