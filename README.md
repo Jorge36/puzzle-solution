@@ -6,7 +6,7 @@
 
 Tests performed shows a good performance of the algorithm, which uses manhattan and linear conflict heuristics together.
 
-The programs save states in node objects and graph object (object oriented paradigm).
+The program saves states in node objects and graph object (object oriented paradigm).
 
 <h3> State representation </h3>
   
