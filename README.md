@@ -4,7 +4,7 @@
 
 8-puzzle in Common Lisp using A* algorithm, Conflict linear and manhattan heuristic. The application was developed in LispWorks IDE. I also used a priority queue to develop the program(https://common-lisp.net/project/cl-heap/). The program can be extended to run 16-puzzle. 
 
-Tests performed shows a good performance of the algorithm, which uses manhattan and linear conflict heuristics together.
+Tests performed shows a good performance of the solution, which uses manhattan and linear conflict heuristics together.
 
 The program saves states in node objects and graph object (object oriented paradigm).
 
