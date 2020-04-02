@@ -512,7 +512,7 @@
 
 
 (print (setq l3 (create_node '(1 2 9 4 5 3 6 7 8) 3 ))) ; initial node FIND SOLUTION
-;(print (setq l3 (create_node '(9 1 2 4 5 8 6 7 3) 3 ))) ; initial node COULD BE A CASE OF INFEASIBLE CASE
+;(print (setq l3 (create_node '(9 1 2 4 5 8 6 7 3) 3 ))) ; initial node NOT SOLVABLE INFEASIBLE CASE
 ;(print (setq l3 (create_node '(9 1 3 4 2 6 7 5 8) 3 ))) ; initial node FIND SOLUTION
 ;(print (setq l3 (create_node '(1 8 2 9 4 3 7 6 5) 3 ))) ; initial node FIND SOLUTION
 ;(print (setq l3 (create_node '(1 8 2 9 4 3 7 6 5) 3 ))) ; initial node FIND SOLUTION
