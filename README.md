@@ -2,7 +2,7 @@
 
 <h3>Puzzle Solution</h3>
 
-8-puzzle solver in Common Lisp using A* algorithm, Conflict linear and manhattan heuristics. The application was developed in LispWorks IDE. I also used a priority queue to develop the program(https://common-lisp.net/project/cl-heap/). The program can be extended to run 16-puzzle. 
+8-puzzle solver in Common Lisp using A* algorithm with Conflict linear and manhattan heuristics. The application was developed in LispWorks IDE. I also used a priority queue to develop the program(https://common-lisp.net/project/cl-heap/). The program can be extended to run 16-puzzle. 
 
 Tests performed shows a good performance of the solution, which uses manhattan and linear conflict heuristics together.
 
